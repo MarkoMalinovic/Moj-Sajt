@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sajt</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style >
+    h6  {
+      background-color: #BC8F8F
+
+
+    }
+    a:link {
+      color: #FFFACD;
+background-color: none;
+
+    }
+      a:visited {
+        color: black;
+      }
+
+      a:hover {color: pink;
+      text-decoration: underline;;}
+     body {background-color: #F0FFFF;}
+   h1 {color: #004325;
+
+
+   }
+     p {color:#7fffD4;
+    padding: 30px;
+     }
+     q  {color: #FFE4C4}
+   </style>
+
+
+  </head>
+
+  <body>
+
+  <div class="jumbotron text-center">
+<h1 style="font-family:courier; ">Moj Sajt</h1>
+  </div>
+
+
+
+  <hr>
+  <p style=" border: 3px;font-size:200%;padding: 2px;font-family : verdana;">Ovo je moj sajt</p>
+  <hr>
+  <q style="font-size:150%">Napravio sam ga u HTML</q>
+  <br><br>
+  <h3>  Moji sajtovi</h3><br>
+  <ul>
+     <li><a href="http://localhost/php_kurs/Sajt%20o%20autima/" target="_blank">Pogledaj moj sajt o autima</a></li>
+     <li><a href="http://localhost/php_kurs/Sajt/" target="_blank">Pogledaj moj sajt za prijavu</a></li>
+
+  </ul>
+  <br>
+  <br>
+  <br>
+<form action="validate.php" method="post">
+  <h6 style="font-size: 150%;">Da li ti se svideo sajt? </h6>
+  <input type="submit" name="Da" value="Da" required>
+  <input type="submit" name="Ne" value="Ne">
+  <input type="text" name="komentar" placeholder="Ostavi komentar" class="form-control" >
+  <button type="submit" name="subBtn" class="btn btn-info form-control">Ostavi</button>
+  <p style="text-align:center;font-size:200%;">Wikipedia o Rumenci</p>
+<br><hr>  <iframe src="https://sr.wikipedia.org/sr-ec/%D0%A0%D1%83%D0%BC%D0%B5%D0%BD%D0%BA%D0%B0" width="1900" height="500"></iframe>
+
+
+
+
+  </body>
+</html>
